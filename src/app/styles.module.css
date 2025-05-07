@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
+.aside {
+  height: 100vh;
+  width: 400px;
+  position: sticky;
+  top: 0;
+
+  border-right: 1px solid #dbdbdb;
+  padding: 14px;
+}
+
+.title {
+  font-size: 38px;
+  padding: 24px 10px;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+  padding: 10px;
+  transition: 200ms;
+}
+
+.navLink:hover {
+  background-color: #dbdbdb;
+}
