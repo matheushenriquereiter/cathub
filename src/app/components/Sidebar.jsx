@@ -1,10 +1,13 @@
-import styles from "@/app/styles.module.css";
 import NavItem from "./NavItem";
+import Link from "next/link";
+import styles from "@/app/styles.module.css";
 
 export default function Sidebar() {
   return (
     <aside className={styles.aside}>
-      <h1 className={styles.title}>CatHub</h1>
+      <Link href="/">
+        <h1 className={styles.title}>CatHub</h1>
+      </Link>
       <nav>
         <ul className={styles.navItems}>
           <NavItem name="home"></NavItem>

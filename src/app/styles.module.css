@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
 
+.bold {
+  font-weight: 500;
+}
+
+.pageWrapper {
+  display: flex;
+}
+
+.contentContainer {
+  width: 100%;
+  max-width: 464px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+/* Sidebar */
 .aside {
   height: 100vh;
   width: 400px;
@@ -12,7 +30,8 @@
 
 .title {
   font-size: 38px;
-  padding: 24px 10px;
+  margin: 20px 0;
+  padding: 4px 10px;
   font-family: "Cal Sans", sans-serif;
 }
 
@@ -28,7 +47,7 @@
 }
 
 .navLink {
-  border-radius: 6px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -39,4 +58,197 @@
 
 .navLink:hover {
   background-color: #dbdbdb;
+}
+
+/* Stories */
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.storie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.storieImage {
+  border-radius: 100%;
+  border: 2px solid #fbd157;
+  padding: 2px;
+}
+
+/* Posts */
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.post {
+  padding-bottom: 38px;
+}
+
+.post:not(:last-child) {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postProfileInfos {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.postProfileName {
+  cursor: pointer;
+}
+
+.postProfileName:hover {
+  text-decoration: underline;
+}
+
+.postProfileImage {
+  border-radius: 100%;
+  border: 2px solid #c99f25;
+  cursor: pointer;
+}
+
+.postContainer {
+  width: 100%;
+  height: 624px;
+  position: relative;
+}
+
+.postImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.postDate {
+  color: #c99f25;
+}
+
+.moreButton {
+  cursor: pointer;
+}
+
+.postFooter {
+  border-radius: 0 0 12px 12px;
+  padding: 12px 16px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(201, 159, 37, 0.6);
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postFooterContainer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 8px;
+}
+
+/* Right panel */
+.rightPanel {
+  width: 100%;
+  max-width: 384px;
+  font-weight: 500;
+  gap: 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.profileSwitcher {
+  height: 72px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profileImage {
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+.profileName {
+  cursor: pointer;
+}
+
+.suggestionProfileName {
+  cursor: pointer;
+}
+
+.suggestionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.suggestionTextContainer {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.suggestionText {
+  color: #8e8e8e;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggestionProfile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.suggestionProfileImage {
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.followButton,
+.switchAccountButton {
+  color: #c99f25;
+  cursor: pointer;
+}
+
+.seeAllText {
+  cursor: pointer;
 }

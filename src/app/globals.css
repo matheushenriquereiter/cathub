@@ -4,16 +4,15 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: #000;
+  color: #262626;
+  object-fit: cover;
 }
 
-.wrapper {
-  display: flex;
-}
-
-.main {
+main {
   width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+
+  gap: 128px;
+  padding: 42px 0;
 }
