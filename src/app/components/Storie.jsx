@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/styles.module.css";
+import Link from "next/link";
 
 export default function ({ profileName }) {
   return (
@@ -12,7 +13,7 @@ export default function ({ profileName }) {
         alt="storie profile image"
       ></Image>
 
-      <span>{profileName}</span>
+      <span className={styles.storieProfile}>{profileName}</span>
     </div>
   );
 }

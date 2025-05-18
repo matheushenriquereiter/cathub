@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.profileHeader {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 20px;
+  padding-left: 78px;
+
+  display: flex;
+  gap: 80px;
+}
+
+.profileImage {
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px solid #fbd157;
+}
+
+.profileName {
+  font-size: 22px;
+}
+
+.followButton {
+  font-size: 14px;
+  padding: 8px 20px;
+  font-weight: 700;
+  border: none;
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.profileData {
+  display: flex;
+  gap: 40px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}

@@ -23,7 +23,7 @@ export default function NavItem({ name }) {
           height={28}
         ></Image>
 
-        <span className={currentPath == path ? styles.bold : ""}>
+        <span className={currentPath == path ? "bold" : ""}>
           {capitalizeFirstLetter(name)}
         </span>
       </Link>

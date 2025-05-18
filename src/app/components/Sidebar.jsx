@@ -14,8 +14,8 @@ export default function Sidebar() {
           <NavItem name="search"></NavItem>
           <NavItem name="explore"></NavItem>
           <NavItem name="reels"></NavItem>
-          <NavItem name="notifications"></NavItem>
           <NavItem name="create"></NavItem>
+          <NavItem name="register"></NavItem>
           <NavItem name="more"></NavItem>
         </ul>
       </nav>

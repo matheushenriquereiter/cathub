@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,11 @@
   object-fit: cover;
 }
 
+input,
+button {
+  border: none;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -15,4 +22,16 @@ main {
 
   gap: 128px;
   padding: 42px 0;
+}
+
+.page-wrapper {
+  display: flex;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 400;
 }

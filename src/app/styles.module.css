@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
 
-.bold {
-  font-weight: 500;
-}
-
-.pageWrapper {
-  display: flex;
-}
-
 .contentContainer {
   width: 100%;
   max-width: 464px;
@@ -67,6 +59,7 @@
 }
 
 .storie {
+  width: 72px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +71,13 @@
   border-radius: 100%;
   border: 2px solid #fbd157;
   padding: 2px;
+}
+
+.storieProfile {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
 }
 
 /* Posts */

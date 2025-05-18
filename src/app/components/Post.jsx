@@ -1,21 +1,26 @@
 import Image from "next/image";
 import styles from "@/app/styles.module.css";
+import Link from "next/link";
 
 export default function Post({ postProfileName, likesAmount }) {
   return (
     <div className={styles.post}>
       <div className={styles.postHeader}>
         <div className={styles.postProfileInfos}>
-          <Image
-            className={styles.postProfileImage}
-            src="/test.jpeg"
-            width="48"
-            height="48"
-            alt="post profile image"
-          ></Image>
+          <Link href="/profile">
+            <Image
+              className={styles.postProfileImage}
+              src="/test.jpeg"
+              width="48"
+              height="48"
+              alt="post profile image"
+            ></Image>
+          </Link>
 
           <div>
-            <span className={styles.postProfileName}>{postProfileName}</span>
+            <Link href="/profile">
+              <span className={styles.postProfileName}>{postProfileName}</span>
+            </Link>
 
             <span className={styles.postDate}> • 8h</span>
           </div>

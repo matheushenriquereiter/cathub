@@ -7,7 +7,7 @@ import styles from "@/app/styles.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.pageWrapper}>
+    <div className="page-wrapper">
       <Sidebar></Sidebar>
 
       <main>
@@ -15,6 +15,9 @@ export default function Home() {
           <Stories></Stories>
 
           <div className={styles.posts}>
+            <Post postProfileName="nicecat" likesAmount={256}></Post>
+            <Post postProfileName="thegreatcat" likesAmount={542}></Post>
+            <Post postProfileName="badcat" likesAmount={1203}></Post>
             <Post postProfileName="nicecat" likesAmount={256}></Post>
             <Post postProfileName="thegreatcat" likesAmount={542}></Post>
             <Post postProfileName="badcat" likesAmount={1203}></Post>
