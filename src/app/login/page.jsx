@@ -1,8 +1,8 @@
-import styles from "./register.module.css";
+import styles from "./login.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Register() {
+export default function Signin() {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.card}>
@@ -35,7 +35,7 @@ export default function Register() {
 
               <div className={styles.division}>
                 <hr />
-                register
+                log in
                 <hr />
               </div>
             </div>
@@ -54,13 +54,13 @@ export default function Register() {
 
             <div className={styles.wrapper}>
               <Link href="/" className={styles.submitLink}>
-                <button className={styles.submitButton}>Register</button>
+                <button className={styles.submitButton}>Log in</button>
               </Link>
 
               <span>
-                Already have an account?&nbsp;
-                <Link className={styles.signinLink} href="/login">
-                  Log in
+                Don't have an account?&nbsp;
+                <Link className={styles.signinLink} href="/register">
+                  Register
                 </Link>
               </span>
             </div>
