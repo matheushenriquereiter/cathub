@@ -10,7 +10,7 @@ export default function Signin() {
           <form className={styles.form}>
             <h1 className={styles.title}>Let your cat be famous</h1>
 
-            <div className={styles.test}>
+            <div className={styles.wrapper}>
               <div className={styles.otherTypes}>
                 <div>
                   <Image

@@ -39,6 +39,7 @@ export default function Post({ postProfileName, likesAmount }) {
         <div className={styles.postFooter}>
           <div className={styles.postFooterContainer}>
             <Image
+              className={styles.favorite}
               src="/assets/icons/like.svg"
               width="32"
               height="32"
@@ -48,6 +49,7 @@ export default function Post({ postProfileName, likesAmount }) {
           </div>
 
           <Image
+            className={styles.like}
             src="/assets/icons/favorite.svg"
             width="32"
             height="32"

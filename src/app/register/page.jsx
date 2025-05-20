@@ -10,7 +10,7 @@ export default function Register() {
           <form className={styles.form}>
             <h1 className={styles.title}>Let your cat be famous</h1>
 
-            <div className={styles.test}>
+            <div className={styles.wrapper}>
               <div className={styles.otherTypes}>
                 <div>
                   <Image
@@ -42,7 +42,12 @@ export default function Register() {
 
             <div className={styles.inputs}>
               <label className={styles.label}>
-                Username or email
+                Email
+                <input className={styles.input} type="text" />
+              </label>
+
+              <label className={styles.label}>
+                Username
                 <input className={styles.input} type="text" />
               </label>
 

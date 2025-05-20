@@ -163,6 +163,11 @@
   gap: 8px;
 }
 
+.like,
+.favorite {
+  cursor: pointer;
+}
+
 /* Right panel */
 .rightPanel {
   width: 100%;

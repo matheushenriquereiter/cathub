@@ -1,3 +1,26 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .searchInput {
   border: 1px solid #000;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profileImage {
+  border-radius: 100%;
+  border: 2px solid #c99f25;
 }
