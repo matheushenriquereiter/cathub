@@ -5,15 +5,19 @@ import Link from "next/link";
 export default function ({ profileName }) {
   return (
     <div className={styles.storie}>
-      <Image
-        className={styles.storieImage}
-        src="/test.jpeg"
-        height="72"
-        width="72"
-        alt="storie profile image"
-      ></Image>
+      <Link href="/storie">
+        <Image
+          className={styles.storieImage}
+          src="/test.jpeg"
+          height="72"
+          width="72"
+          alt="storie profile image"
+        ></Image>
+      </Link>
 
-      <span className={styles.storieProfile}>{profileName}</span>
+      <Link href="/storie">
+        <span className={styles.storieProfile}>{profileName}</span>
+      </Link>
     </div>
   );
 }
