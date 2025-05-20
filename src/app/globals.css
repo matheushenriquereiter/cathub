@@ -35,3 +35,7 @@ main {
 .regular {
   font-weight: 400;
 }
+
+.text {
+  font-weight: 500;
+}

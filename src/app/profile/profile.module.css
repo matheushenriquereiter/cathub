@@ -56,3 +56,13 @@
   grid-column-gap: 4px;
   grid-row-gap: 4px;
 }
+
+.post:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}

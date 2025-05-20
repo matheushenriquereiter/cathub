@@ -39,7 +39,10 @@ export default function Profile() {
                 </span>
               </div>
 
-              <div>I am the nicest cat of all time.</div>
+              <div className={styles.bio}>
+                <span className="bold">The cat</span>
+                <span>I am the nicest cat of all time.</span>
+              </div>
             </div>
           </div>
 

@@ -10,113 +10,137 @@ export default function Explore() {
       <main>
         <div>
           <div className={styles.posts}>
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
 
-            <Image
-              className={styles.post}
-              src="/test.jpeg"
-              width="300"
-              height="300"
-              alt="post profile image"
-              unoptimized={true}
-            ></Image>
+            <div className={styles.post}>
+              <Image
+                className={styles.postImage}
+                src="/test.jpeg"
+                width="300"
+                height="300"
+                alt="post profile image"
+                unoptimized={true}
+              ></Image>
+            </div>
           </div>
         </div>
       </main>

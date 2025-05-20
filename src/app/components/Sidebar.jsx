@@ -13,7 +13,6 @@ export default function Sidebar() {
           <NavItem name="home"></NavItem>
           <NavItem name="search"></NavItem>
           <NavItem name="explore"></NavItem>
-          <NavItem name="reels"></NavItem>
           <NavItem name="create"></NavItem>
           <NavItem name="register"></NavItem>
           <NavItem name="more"></NavItem>
