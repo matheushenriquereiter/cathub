@@ -59,7 +59,7 @@ export default function Post({ postProfileName, likesAmount }) {
 
         <Image
           className={styles.postImage}
-          src="/test.jpeg"
+          src="/assets/test.jpeg"
           width="200"
           height="200"
           alt="post image"

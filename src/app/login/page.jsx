@@ -1,13 +1,59 @@
+"use client";
 import styles from "./login.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
-export default function Signin() {
+export default function Login() {
+  const router = useRouter();
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleChange = event => {
+    const { name, value } = event.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleLoginUser = async event => {
+    event.preventDefault();
+
+    const { email, password } = formData;
+
+    try {
+      const loginResponse = await fetch("http://localhost:8080/users/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (!loginResponse.ok) {
+        console.log("Login failed");
+      }
+
+      const data = await loginResponse.json();
+
+      if (data.token) {
+        localStorage.setItem("token", data.token);
+
+        router.push("/");
+      } else {
+        throw new Error("Token not received from server");
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+    }
+  };
+
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.card}>
         <div className={styles.formContainer}>
-          <form className={styles.form}>
+          <form className={styles.form} onSubmit={handleLoginUser}>
             <h1 className={styles.title}>Let your cat be famous</h1>
 
             <div className={styles.wrapper}>
@@ -43,19 +89,31 @@ export default function Signin() {
             <div className={styles.inputs}>
               <label className={styles.label}>
                 Username or email
-                <input className={styles.input} type="text" />
+                <input
+                  value={formData.email}
+                  onChange={handleChange}
+                  name="email"
+                  className={styles.input}
+                  type="text"
+                />
               </label>
+              {!formData.email ? "Email is required" : null}
 
               <label className={styles.label}>
                 Password
-                <input className={styles.input} type="password" />
+                <input
+                  value={formData.password}
+                  onChange={handleChange}
+                  name="password"
+                  className={styles.input}
+                  type="password"
+                />
               </label>
+              {!formData.password ? "Password is required" : null}
             </div>
 
             <div className={styles.wrapper}>
-              <Link href="/" className={styles.submitLink}>
-                <button className={styles.submitButton}>Log in</button>
-              </Link>
+              <button className={styles.submitButton}>Log in</button>
 
               <span>
                 Don't have an account?&nbsp;
@@ -70,7 +128,7 @@ export default function Signin() {
         <div className={styles.imageContainer}>
           <Image
             className={styles.image}
-            src="/test2.png"
+            src="/assets/test2.png"
             height={0}
             width={0}
             alt="jorge"

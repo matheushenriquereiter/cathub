@@ -13,7 +13,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -24,7 +24,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -35,7 +35,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -46,7 +46,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -57,7 +57,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -68,7 +68,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -79,7 +79,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -90,7 +90,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -101,7 +101,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -112,7 +112,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -123,7 +123,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
@@ -134,7 +134,7 @@ export default function Explore() {
             <div className={styles.post}>
               <Image
                 className={styles.postImage}
-                src="/test.jpeg"
+                src="/assets/test.jpeg"
                 width="300"
                 height="300"
                 alt="post profile image"
